@@ -1,0 +1,168 @@
+@media screen and (max-width: 1200px) {
+	.footer__container {
+		padding: 30px 15px 15px;
+	}
+}
+
+@media screen and (max-width: 976px) {
+	.specialized__areas__grid {
+		justify-items: center;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.what__we__use__grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.menu__container {
+		display: none;
+	}
+	.studio__title {
+		font-size: 35px;
+		line-height: 48px;
+	}
+
+	.clients__flex__item {
+		margin-right: 15px;
+	}
+
+	.clients__flex__item:last-child {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.description__container {
+		padding-top: 300px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 11px;
+	}
+
+	.photo__description__container {
+		padding-top: 300px;
+	}
+	.photo__description__text {
+		padding-bottom: 160px;
+	}
+
+	.our__clients__titile {
+		font-size: 20px;
+	}
+
+	.our__clients__subtitle {
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+
+	.our__clients__logo__flex {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+		grid-gap: 30px;
+		justify-items: center;
+	}
+
+	.our__clients {
+		padding: 50px 100px 60px 100px;
+		background-color: black;
+	}
+
+	.subscribe__container {
+		padding: 115px 10px;
+		margin: 0 10px;
+		max-width: 414px;
+	}
+
+	.subscribe__title {
+		margin-bottom: 15px;
+		font-size: 20px;
+		line-height: 42px;
+		text-align: center;
+		color: #fff;
+	}
+
+	.subscribe__subtitle {
+		margin-bottom: 15px;
+		font-size: 21px;
+		line-height: 30px;
+		text-align: center;
+		color: #c0c0c0;
+	}
+
+	.left__grid__item {
+		padding: 15px 15px;
+		background-color: black;
+		max-width: 414px;
+		height: auto;
+	}
+
+	.specialized__areas {
+		padding: 15px;
+	}
+
+	.reusable__action__button {
+		height: 20px;
+		font-size: 11px;
+	}
+
+	.grid__item__description {
+		font-size: 11px;
+		line-height: 13px;
+	}
+
+	.left__grid__item__wrapper {
+		padding: 100px 0;
+	}
+
+	.what__we__use__grid__h2 {
+		font-size: 23px;
+	}
+
+	.what__we__use__grid__description {
+		width: 365px;
+	}
+
+	.right__grid__item {
+		background-color: black;
+		max-width: 414px;
+	}
+
+	.footer__container__first {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.company__footer__text {
+		font-size: 11px;
+	}
+
+	.footer__nav {
+		font-size: 11px;
+	}
+
+	.subscribe__flex__container {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.footer__subscribe__subtitle {
+		margin-bottom: 10px;
+	}
+	.copyrights__text {
+		margin-bottom: 10px;
+	}
+
+	.divider-last {
+		margin-bottom: 20px;
+	}
+
+	.copyrights__social__flex {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.email__input {
+		max-width: 360px;
+	}
+}
