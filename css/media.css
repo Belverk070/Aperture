@@ -12,11 +12,24 @@
 	.what__we__use__grid {
 		grid-template-columns: repeat(1, 1fr);
 	}
+	.left__grid__item {
+		padding-left: 0;
+	}
 }
 
 @media screen and (max-width: 920px) {
 	.menu__container {
-		display: none;
+		width: auto;
+	}
+	.menu {
+		visibility: hidden;
+	}
+	.menu-btn {
+		display: block;
+	}
+	.menu__item,
+	.menu__item__button {
+		visibility: hidden;
 	}
 	.studio__title {
 		font-size: 35px;
@@ -72,7 +85,7 @@
 	.subscribe__container {
 		padding: 115px 10px;
 		margin: 0 10px;
-		max-width: 414px;
+		max-width: 350px;
 	}
 
 	.subscribe__title {
@@ -92,9 +105,9 @@
 	}
 
 	.left__grid__item {
-		padding: 15px 15px;
+		padding: 15px 0;
 		background-color: black;
-		max-width: 414px;
+
 		height: auto;
 	}
 
@@ -113,7 +126,7 @@
 	}
 
 	.left__grid__item__wrapper {
-		padding: 100px 0;
+		padding: 100px 5px;
 	}
 
 	.what__we__use__grid__h2 {
@@ -126,7 +139,6 @@
 
 	.right__grid__item {
 		background-color: black;
-		max-width: 414px;
 	}
 
 	.footer__container__first {
@@ -135,6 +147,7 @@
 	}
 	.company__footer__text {
 		font-size: 11px;
+		margin-bottom: 15px;
 	}
 
 	.footer__nav {
