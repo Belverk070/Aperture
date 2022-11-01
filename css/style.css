@@ -147,7 +147,7 @@ input::placeholder {
 .about__studio {
 	background: url(../img/header-logo-pic.jpg) no-repeat center;
 	background-size: cover;
-	min-height: 716px;
+	height: 716px;
 	position: relative;
 }
 
