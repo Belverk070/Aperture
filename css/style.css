@@ -115,6 +115,7 @@ input::placeholder {
 	width: 700px;
 	align-items: center;
 	justify-content: space-between;
+	flex-direction: row-reverse;
 }
 
 .menu__item {
@@ -147,7 +148,7 @@ input::placeholder {
 .about__studio {
 	background: url(../img/header-logo-pic.jpg) no-repeat center;
 	background-size: cover;
-	height: 716px;
+	padding-bottom: 100px;
 	position: relative;
 }
 
@@ -216,7 +217,7 @@ input::placeholder {
 .specialized__areas {
 	padding: 120px;
 	background-color: black;
-	margin-bottom: -26px;
+	padding-bottom: 30px;
 }
 
 .areas__title {
